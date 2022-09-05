@@ -1,0 +1,58 @@
+{
+  // Theme Setup.
+  "workbench.colorTheme": "Just Black",
+  "editor.fontFamily": "Jetbrains Mono",
+  "terminal.integrated.fontFamily": "'Operator Mono', 'Inconsolata for Powerline', monospace",
+  "editor.letterSpacing": 0.5,
+  "editor.fontWeight": "400",
+  "editor.fontLigatures": true,
+  "editor.cursorStyle": "line",
+  "editor.cursorWidth": 5,
+  "editor.cursorBlinking": "phase",
+  "editor.renderWhitespace": "all",
+  "editor.snippetSuggestions": "top",
+  "workbench.startupEditor": "newUntitledFile",
+  "editor.glyphMargin": true,
+  "workbench.editor.enablePreview": false,
+  "explorer.confirmDragAndDrop": false,
+  "files.trimTrailingWhitespace": true,
+  "files.trimFinalNewlines": true,
+  "editor.minimap.enabled": false,
+  "editor.semanticHighlighting.enabled": false,
+  "terminal.integrated.fontSize": 20,
+  "editor.tabSize": 2,
+  "workbench.activityBar.visible": false,
+  "editor.lineHeight": 0,
+  "editor.fontSize": 20,
+  "excalidraw.theme": "dark",
+
+  // excalidraw
+
+  "workbench.editorAssociations": {
+    "*.svg": "editor.excalidraw"
+  },
+  "editor.inlineSuggest.enabled": true,
+  "editor.mouseWheelScrollSensitivity": 2,
+  "editor.cursorSmoothCaretAnimation": true,
+  "workbench.iconTheme": "material-icon-theme",
+  "tabnine.experimentalAutoImports": true,
+  "window.zoomLevel": -1,
+
+  // trust window disable
+
+  "security.workspace.trust.startupPrompt": "never",
+  "security.workspace.trust.enabled": false,
+  "security.workspace.trust.banner": "never",
+  "security.workspace.trust.emptyWindow": false,
+
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.formatOnSave": true,
+  "eslint.format.enable": true,
+
+  // Vim Config
+
+  "editor.lineNumbers": "relative"
+}
