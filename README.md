@@ -1,2 +1,4 @@
 
-#This is my daily settings that i use
+# This is my daily settings that i use
+
+	- replace `Caps Lock` with `Escape` for Vim purpose! `~$ setxkbmap -option caps:escape`. see more [Link](https://askubuntu.com/questions/53038/how-do-i-remap-the-caps-lock-key): 
