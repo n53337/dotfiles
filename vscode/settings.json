@@ -1,14 +1,14 @@
 {
-  // Theme Setup.
-  "workbench.colorTheme": "Just Black",
+  "window.menuBarVisibility": "hidden",
+  "workbench.colorTheme": "Default Light+",
   "editor.fontFamily": "Jetbrains Mono",
-  "terminal.integrated.fontFamily": "'Operator Mono', 'Inconsolata for Powerline', monospace",
+  // "editor.fontFamily": "'Cascadia Code'",
+  "terminal.integrated.fontFamily": "Cascadia Code",
   "editor.letterSpacing": 0.5,
   "editor.fontWeight": "400",
   "editor.fontLigatures": true,
   "editor.cursorStyle": "line",
   "editor.cursorWidth": 5,
-  "editor.cursorBlinking": "phase",
   "editor.renderWhitespace": "all",
   "editor.snippetSuggestions": "top",
   "workbench.startupEditor": "newUntitledFile",
@@ -19,40 +19,55 @@
   "files.trimFinalNewlines": true,
   "editor.minimap.enabled": false,
   "editor.semanticHighlighting.enabled": false,
-  "terminal.integrated.fontSize": 20,
+  "terminal.integrated.fontSize": 14,
   "editor.tabSize": 2,
-  "workbench.activityBar.visible": false,
   "editor.lineHeight": 0,
-  "editor.fontSize": 20,
-  "excalidraw.theme": "dark",
-
-  // excalidraw
-
-  "workbench.editorAssociations": {
-    "*.svg": "editor.excalidraw"
-  },
-  "editor.inlineSuggest.enabled": true,
-  "editor.mouseWheelScrollSensitivity": 2,
-  "editor.cursorSmoothCaretAnimation": true,
+  "editor.fontSize": 14,
   "workbench.iconTheme": "material-icon-theme",
-  "tabnine.experimentalAutoImports": true,
-  "window.zoomLevel": -1,
-
-  // trust window disable
-
-  "security.workspace.trust.startupPrompt": "never",
-  "security.workspace.trust.enabled": false,
-  "security.workspace.trust.banner": "never",
-  "security.workspace.trust.emptyWindow": false,
-
+  "git.autofetch": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
   "editor.formatOnSave": true,
-  "eslint.format.enable": true,
+  "editor.cursorBlinking": "expand",
 
-  // Vim Config
-
-  "editor.lineNumbers": "relative"
+  // VIM CONFIG
+  "vim.easymotion": true,
+  "vim.incsearch": true,
+  "vim.useSystemClipboard": true,
+  "vim.useCtrlKeys": true,
+  "vim.hlsearch": true,
+  "vim.highlightedyank.color": "rgba(250, 240, 170, 0.5)",
+  "vim.insertModeKeyBindings": [
+    {
+      "before": ["j", "j"],
+      "after": ["<Esc>"]
+    }
+  ],
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": ["<leader>", "d"],
+      "after": ["d", "d"]
+    },
+    {
+      "before": ["<C-n>"],
+      "commands": [":nohl"]
+    },
+    {
+      "before": ["K"],
+      "commands": ["lineBreakInsert"],
+      "silent": true
+    }
+  ],
+  "vim.leader": "<space>",
+  "vim.handleKeys": {
+    "<C-a>": false,
+    "<C-f>": false,
+    "<C-b>": false
+    // "<C-d>": false
+  },
+  "editor.renderLineHighlight": "gutter",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "git.enableSmartCommit": true,
+  "sync.gist": "3b5bf4c1b0d97c0a32d8aeeef30cb240",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "workbench.sideBar.location": "left"
 }
